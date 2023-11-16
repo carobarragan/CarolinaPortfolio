@@ -24,12 +24,12 @@ export default function RootLayout({
       <body className={`${montserrat.className}antialiased`}>
         {children}
         {/* <NavLinks /> */}
-        <footer
-          className={`${lusitana.className} py-10 flex justify-center intems-center `}
-        >
-          Carolina ♥ Programadora Full Stack Web
-        </footer>
       </body>
+      <footer
+        className={`${lusitana.className} py-10 flex justify-center intems-center `}
+      >
+        Carolina ♥ Programadora Full Stack Web
+      </footer>
     </html>
   );
 }
