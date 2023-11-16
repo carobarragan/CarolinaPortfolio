@@ -9,14 +9,8 @@ export default function Proyect() {
       </h1>
       <div className="card w-120 bg-base-100 shadow-xl image-full">
         <figure>
-          <Image
-            src="/formulario.png"
-            alt="formulario"
-            width={200}
-            height={280}
-            className="block md:hidden"
-          ></Image>
-          <video src="/video.mp4" />
+          <img src="/formulario.png" className="block md:hidden"></img>
+          <video src="/video.mp4" className="hidden md:block" />
         </figure>
 
         <div className="card-body">
