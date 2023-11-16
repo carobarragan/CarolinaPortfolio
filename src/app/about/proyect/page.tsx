@@ -33,7 +33,7 @@ export default function Proyect() {
       <br />
       <div className="card card-compact w-120 bg-base-100 shadow-xl">
         <figure>
-          <img src="/juego.png" alt="Shoes" />
+          <img src="/juego.png" alt="juego" />
         </figure>
         <div className="card-body">
           <h2 className="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
@@ -48,6 +48,68 @@ export default function Proyect() {
               <a
                 className="menu dropdown-content z-[1] p-2 shadow bg-base-300 rounded-box w-52 mt-4 "
                 href="https://precious-cendol-88d048.netlify.app/"
+              >
+                Haz click!
+              </a>
+            </div>
+            {/* <textarea
+              className="textarea textarea-success"
+              placeholder="Bio"
+            ></textarea> */}
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="card card-compact w-120 bg-base-100 shadow-xl">
+        <figure>
+          <img src="/SM.jpg" alt="Moza" />
+        </figure>
+        <div className="card-body">
+          <h2 className="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
+            Pagina de Servicio de Moza
+          </h2>
+          <p className="flex-auto text-lg font-medium text-slate-500">
+            {" "}
+            Pagina de servicio realizada con Next.js, que es un framework de
+            React + css
+          </p>
+          <div className="card-actions justify-end">
+            <div className="flex justify-end flex-1 px-2 flex items-stretch bg-violet-300">
+              <a
+                className="menu dropdown-content z-[1] p-2 shadow bg-base-300 rounded-box w-52 mt-4 "
+                href="https://moza-servicio.vercel.app/"
+              >
+                Haz click!
+              </a>
+            </div>
+            {/* <textarea
+              className="textarea textarea-success"
+              placeholder="Bio"
+            ></textarea> */}
+          </div>
+        </div>
+      </div>
+      <br />
+      <div className="card card-compact w-120 bg-base-100 shadow-xl">
+        <figure>
+          <img src="/pg.jpeg" alt="Servicio" />
+        </figure>
+        <div className="card-body">
+          <h2 className="w-full flex-none mb-3 text-2xl leading-none text-slate-900">
+            Proyecto Grupal
+          </h2>
+          <p className="flex-auto text-lg font-medium text-slate-500">
+            {" "}
+            Es una aplicación de viaje, donde cuenta con tres perfiles;
+            Administrador, este tiene el control total de la aplicación a través
+            de un panel. Anfitrión, pone a disposición el servicio;
+            Huesped,dispone de la adquisición del servicio.
+          </p>
+          <div className="card-actions justify-end">
+            <div className="flex justify-end flex-1 px-2 flex items-stretch bg-violet-300">
+              <a
+                className="menu dropdown-content z-[1] p-2 shadow bg-base-300 rounded-box w-52 mt-4 "
+                href="https://wetravel-app.vercel.app/"
               >
                 Haz click!
               </a>
