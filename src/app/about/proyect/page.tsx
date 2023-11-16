@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Proyect() {
   return (
@@ -8,6 +9,13 @@ export default function Proyect() {
       </h1>
       <div className="card w-120 bg-base-100 shadow-xl image-full">
         <figure>
+          <Image
+            src="/formulario.png"
+            alt="formulario"
+            width={200}
+            height={280}
+            className="block md:hidden"
+          ></Image>
           <video src="/video.mp4" />
         </figure>
 
