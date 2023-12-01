@@ -4,7 +4,7 @@ import Style from "../../../../styles/proyect.module.css";
 
 export default function Proyect() {
   return (
-    <div className={Style.inicio}>
+    <div className="block md:hidden">
       <h1 className={Style.titulo}>Proyectos</h1>
 
       <h2 className={Style.titulo2}>Formulario</h2>
