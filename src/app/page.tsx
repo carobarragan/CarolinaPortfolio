@@ -9,10 +9,10 @@ export default function Home() {
             Hola, soy programadora full stack, apasionada por lo que hago
           </div>
           <a
-            className="absolute bottom-2 left-2 py-4 hover:py-8 opacity:0.05 tw-shadow-color:violet "
+            className="absolute bottom-2  py-4 hover:py-8 opacity:0.05 tw-shadow-color:violet "
             href="/about"
           >
-            conoceme{" "}
+            Conoceme{" "}
           </a>
         </p>
         <Image
