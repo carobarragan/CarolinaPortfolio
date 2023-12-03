@@ -2,7 +2,7 @@ import Image from "next/image";
 export default function Page() {
   return (
     <div className=" lg:grid-cols-5">
-      <p className="mt 6 grid grid cols 1 gap 6 md:grip cols 4 lg:grid cols 0">
+      <p className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
         Hola mi nombre es carolina, soy programadora full stack web, ademas de
         tecnica en administacion financiera y publica. soy muy inperactica y
         siempre sigo intentando, desde que lei por primera vez algo de
@@ -28,7 +28,8 @@ export default function Page() {
         </svg>
         <a
           href="https://docs.google.com/document/d/1Aan5a05YzYeUkeeRzSY2xVZL2gXKX1n2XbP8hIj-rRQ/edit"
-          className=""
+          className="h-10 px-6 font-semibold rounded-md bg-black text-white"
+          type="submit"
           target="_blank"
           rel="noopener noreferrer"
         >
