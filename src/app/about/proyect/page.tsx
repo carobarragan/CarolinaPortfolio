@@ -4,7 +4,7 @@ import Style from "../../../../styles/proyect.module.css";
 
 export default function Proyect() {
   return (
-    <div className="block md:hidden">
+    <div>
       <h1 className={Style.titulo}>Proyectos</h1>
 
       <h2 className={Style.titulo2}>Formulario</h2>
@@ -14,6 +14,11 @@ export default function Proyect() {
         notificacion del mensaje junto a un confetti{" "}
       </p>
       <img className={Style.imagen} src="/formulario.png"></img>
+      <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        {" "}
+        <a href="https://formulario-wheat-one.vercel.app/" />
+        Clic Aqui
+      </button>
       <h2 className={Style.titulo2}>Juego Tic-Tac</h2>
       <p className={Style.informacion}>
         {" "}
@@ -21,6 +26,11 @@ export default function Proyect() {
       </p>
       <img className={Style.imagen} src="/juego.png"></img>
       <img className={Style.imagen} src="/juego1.png "></img>
+      <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        {" "}
+        <a href="https://precious-cendol-88d048.netlify.app/" />
+        Clic Aqui
+      </button>
       <h2 className={Style.titulo2}> Pagina de Servicio de Moza</h2>
       <p className={Style.informacion}>
         {" "}
@@ -28,6 +38,11 @@ export default function Proyect() {
         css
       </p>
       <img className={Style.imagen} src="/SM.jpg"></img>
+      <button className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        {" "}
+        <a href="https://moza-servicio.vercel.app/" />
+        Clic Aqui
+      </button>
       <h2 className={Style.titulo2}>Proyecto Grupal</h2>
       <p className={Style.informacion}>
         Es una aplicación de viaje, donde cuenta con tres perfiles;
@@ -36,6 +51,11 @@ export default function Proyect() {
         la adquisición del servicio.
       </p>
       <img className={Style.imagen} src="/pg.jpeg"></img>
+      <button className=" bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded">
+        {" "}
+        <a href="https://wetravel-app.vercel.app/" />
+        Clic Aqui
+      </button>
     </div>
   );
 }

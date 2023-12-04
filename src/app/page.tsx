@@ -8,12 +8,6 @@ export default function Home() {
           <div>
             Hola, soy programadora full stack, apasionada por lo que hago
           </div>
-          <a
-            className="absolute bottom-2  py-4 hover:py-8 opacity:0.05 tw-shadow-color:violet "
-            href="/about"
-          >
-            Conoceme{" "}
-          </a>
         </p>
         <Image
           src="/perfil.jpg"
@@ -29,6 +23,12 @@ export default function Home() {
           height={280}
           className="block md:hidden"
         />
+        <a
+          className="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+          href="/about"
+        >
+          Clic Aqui{" "}
+        </a>
       </div>
     </main>
   );
