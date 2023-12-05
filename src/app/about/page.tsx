@@ -27,7 +27,8 @@ export default function Page() {
           <path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" />
         </svg>
         <a
-          href="https://docs.google.com/document/d/1Aan5a05YzYeUkeeRzSY2xVZL2gXKX1n2XbP8hIj-rRQ/edit"
+          href="/Carolina Barragan-cv-.pdf"
+          download
           className="h-10 px-6 font-semibold rounded-md bg-black text-white"
           type="submit"
           target="_blank"
