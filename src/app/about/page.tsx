@@ -3,13 +3,13 @@ export default function Page() {
   return (
     <div className=" lg:grid-cols-5">
       <p className="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
-        Hola mi nombre es carolina, soy programadora full stack web, ademas de
-        tecnica en administacion financiera y publica. soy muy inperactica y
+        Hola mi nombre es Carolina, soy Programadora Full Stack Web, ademas de
+        Tècnica en Administaciòn Financiera y Pùblica. Soy muy imperactica y
         siempre sigo intentando, desde que lei por primera vez algo de
-        programacion instantaneamente me atrajo, ver que siempre algo mas se
-        aprende que cambia constantemente mas me intriga.Me encantaria poder
-        tener mi primer empleo en esta industria y demostrar lo aprendido y
-        seguir aprendiendo
+        programaciòn instantaneamente me atrajo, ver que siempre algo màs se
+        aprende que cambia constantemente màs me intriga.Me encantaria poder
+        tener mi primer empleo en èsta industria y demostrar lo aprendido y
+        seguir aprendiendo.
       </p>
       <Image
         src="/perfil.jpg"

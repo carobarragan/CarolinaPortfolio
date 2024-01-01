@@ -9,7 +9,7 @@ export default function Home() {
         <p className={`text-xl text-gray-000 md:text-3xl md:leading-normal`}>
           <div>
             <Confetti />
-            Hola, soy programadora full stack, apasionada por lo que hago
+            Hola, soy Programadora Full Stack Web, apasionada por lo que hago.
           </div>
         </p>
         <Image
