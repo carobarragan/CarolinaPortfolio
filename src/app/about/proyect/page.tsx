@@ -5,9 +5,11 @@ import Style from "../../../../styles/proyect.module.css";
 export default function Proyect() {
   return (
     <div>
-      <h1 className={Style.titulo}>Proyectos</h1>
-      <h2 className={Style.titulo2}>Formulario</h2>
-      <p className={Style.informacion}>
+      <h1 className="text-black text-4xl font-bold flex flex-row gap-x-4 pb-10">
+        Proyectos...
+      </h1>
+      <h2 className="text-2xl font-semibold text-rose-300 mb-2">Formulario</h2>
+      <p className="text-lg mb-4 text-pretty">
         Formulario de contacto con conexión a base de datos + vercel ship. en
         este formulario utiliza Sonner una biblioteca de React para mostrar la
         notificacion del mensaje junto a un confetti{" "}
@@ -19,8 +21,11 @@ export default function Proyect() {
       >
         Clic Aqui
       </a>
-      <h2 className={Style.titulo2}>Juego Tic-Tac</h2>
-      <p className={Style.informacion}>
+      <br />
+      <h2 className="text-2xl font-semibold text-rose-300 mb-2">
+        Juego Tic-Tac
+      </h2>
+      <p className="text-lg mb-4 text-pretty">
         {" "}
         Card de juego, realizado con React + Css; quien no lo ha jugado :)
       </p>
@@ -32,8 +37,12 @@ export default function Proyect() {
       >
         Clic Aqui
       </a>
-      <h2 className={Style.titulo2}> Pagina de Servicio de Moza</h2>
-      <p className={Style.informacion}>
+      <br />
+      <h2 className="text-2xl font-semibold text-rose-300 mb-2">
+        {" "}
+        Pagina de Servicio de Moza
+      </h2>
+      <p className="text-lg mb-4 text-pretty">
         {" "}
         Pagina de servicio realizada con Next.js, que es un framework de React +
         css
@@ -45,8 +54,11 @@ export default function Proyect() {
       >
         Clic Aqui
       </a>
-      <h2 className={Style.titulo2}>Proyecto Grupal</h2>
-      <p className={Style.informacion}>
+      <br />
+      <h2 className="text-2xl font-semibold text-rose-300 mb-2">
+        Proyecto Grupal
+      </h2>
+      <p className="text-lg mb-4 text-pretty">
         Es una aplicación de viaje, donde cuenta con tres perfiles;
         Administrador, este tiene el control total de la aplicación a través de
         un panel. Anfitrión, pone a disposición el servicio; Huesped,dispone de
@@ -59,6 +71,7 @@ export default function Proyect() {
       >
         Clic Aqui
       </a>
+      <br />
     </div>
   );
 }

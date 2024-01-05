@@ -10,7 +10,7 @@ export const lusitana = Lusitana({
 
 export const metadata: Metadata = {
   title: "Caro Barragàn  ♥",
-  description: "Mi portfolio",
+  description: "Porfolio de Carolina - Desarrolladora y Programadora Web ",
 };
 
 export default function RootLayout({

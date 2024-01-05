@@ -10,21 +10,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
       <div className="flex-grow p-6 md:overflow-y-auto md:p-12 bg-violet-100">
         {" "}
-        Mi camino...
         {children}
-        <footer className="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
-          <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <footer className="rounded-lg shadow m-4 bg-black/20 backdrop-blur-lg w-full xl:w-[1020px] mx-auto mb-10">
+          <div className="w-full max-w-screen-xl mx-auto p-4 md:justify-beetwen hover:underline text-gray-200">
             <p>
               {" "}
               Carolina ♥<br /> Programadora Full Stack Web
             </p>
           </div>
           <nav className="sm:flex sm:items-center sm:justify-between">
-            <header className="footer-title">Social</header>
             <br />
-            <div className="grid grid-flow-col gap-4">
+            <div className="flex flex-warp items-center mt-3 text-sm font-medium text-black/90 sm:mt-0">
               <a
-                className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+                className="hover:underline me-4 md:me-6"
                 href="https://www.linkedin.com/in/caro-barragan/"
               >
                 <svg
