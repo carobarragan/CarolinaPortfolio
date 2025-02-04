@@ -9,7 +9,7 @@ export default function Home() {
         <p className={`text-xl text-gray-000 md:text-3xl md:leading-normal`}>
           <div className="text-black text-5xl font-bold flex flex-row gap-x-4 pb-10">
             <Confetti />
-            Hey, soy Carolina
+            Hey, soy Carolina Barragan
           </div>
           <div className="text-grey-200/90">
             +2 años de experiencia.
